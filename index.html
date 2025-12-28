@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctic Esports | IGL Toxi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #1c1c1c; color: #ffffff; overflow-x: hidden; }
+        .container { width: 90%; max-width: 1200px; margin: auto; text-align: center; }
+        
+        h2 { color: #f6a43a; margin: 40px 0 20px; font-size: 2rem; text-transform: uppercase; }
+
+        /* Hero Section */
+        .hero { display: flex; flex-wrap: wrap; align-items: center; padding: 50px 0; gap: 20px; }
+        .hero-img, .hero-text { flex: 1; min-width: 300px; }
+        .hero-img img { width: 100%; max-width: 300px; border-radius: 20px; border: 3px solid #f6a43a; }
+        .hero-text h1 { font-size: 3rem; color: #f6a43a; }
+        .btn { background: #f6a43a; color: #000; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; margin-top: 15px; }
+
+        /* Highlights */
+        .highlights-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+        .highlights-grid img { width: 100%; max-width: 320px; border-radius: 10px; border: 1px solid #444; }
+
+        /* Team Section */
+        .team-img { width: 100%; max-width: 800px; border-radius: 15px; margin-top: 10px; }
+
+        /* Video Section */
+        .video-box { position: relative; padding-bottom: 177%; height: 0; max-width: 350px; margin: auto; border-radius: 15px; overflow: hidden; }
+        .video-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+        /* Floating WhatsApp */
+        .wa-btn { position: fixed; bottom: 20px; right: 20px; background: #25d366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 30px; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.5); z-index: 1000; }
+
+        footer { padding: 40px 0; color: #666; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container hero">
+        <div class="hero-img">
+            <img src="images/profile.jpg" alt="Toxi Profile">
+        </div>
+        <div class="hero-text">
+            <h1>IGL - TOXI</h1>
+            <p>Arctic Esports Official Player</p>
+            <a href="#booking" class="btn">APPLY NOW</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>HIGHLIGHTS</h2>
+        <div class="highlights-grid">
+            <img src="images/highlight1.jpg" alt="H1">
+            <img src="images/highlight2.jpg" alt="H2">
+            <img src="images/highlight3.jpg" alt="H3">
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>TEAM ARCTIC ROSTER</h2>
+        <img src="images/team.jpg" alt="Team Roster" class="team-img">
+    </div>
+
+    <div class="container">
+        <h2>WATCH OUR VIDEO</h2>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/1y0PE1BYWzY" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="container" id="booking" style="margin-top: 50px;">
+        <div style="background: #252525; padding: 30px; border-radius: 15px;">
+            <h2>BOOKING</h2>
+            <p>+91 9420009275</p>
+            <a href="tel:9420009275" class="btn">CALL NOW</a>
+        </div>
+    </div>
+
+    <a href="https://wa.me/919420009275" class="wa-btn"><i class="fab fa-whatsapp"></i></a>
+
+    <footer>
+        <p>&copy; 2024 Arctic Esports</p>
+    </footer>
+
+</body>
+</html>
